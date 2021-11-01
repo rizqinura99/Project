@@ -1,0 +1,7 @@
+1. Connect to the Mikro
+2. Upload
+3. In Serial Monitor write :
+ - AT , if the Serial Monitor answer 'OK', BT is Ready
+ - AT+ROLE0 -> make the BT modul is secondary modul
+ - AT+ROLE1 -> make the BT modul is main modul
+ - AT+CONN -> BT is Connected
